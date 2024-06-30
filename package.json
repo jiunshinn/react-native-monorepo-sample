@@ -11,7 +11,8 @@
         "**/react",
         "**/react-dom",
         "**/react-native",
-        "**/react-native/**"
+        "**/react-native/**",
+        "**/react-native-web"
       ]
     }
   },
@@ -22,7 +23,10 @@
     "android:studio": "yarn workspace @my-app/mobile studio",
     "ios:metro": "yarn workspace @my-app/mobile start",
     "ios:start": "yarn workspace @my-app/mobile ios",
-    "ios:xcode": "yarn workspace @my-app/mobile xcode"
+    "ios:xcode": "yarn workspace @my-app/mobile xcode",
+    "web:start": "yarn workspace @my-app/web start",
+    "web:build": "yarn workspace @my-app/web build",
+    "web:dev": "yarn workspace @my-app/web dev"
   },
   "packageManager": "yarn@3.6.4"
 }
